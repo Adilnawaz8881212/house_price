@@ -31,16 +31,5 @@ if st.button("Predict price"):
 
     # Display the Prediction with a meaningful message
     st.title(f'Your Home Price is: {predicted_price} PKR')
-    import streamlit as st
-import pandas as pd
-import numpy as np
-import pickle
-import xgboost
-
-# Check versions
-st.write(f"Streamlit version: {st.__version__}")
-st.write(f"Pandas version: {pd.__version__}")
-st.write(f"Numpy version: {np.__version__}")
-st.write(f"Pickle version: {pickle.format_version}")
-st.write(f"XGBoost version: {xgboost.__version__}")
+ 
 
